@@ -239,6 +239,13 @@ annotate service.BusinessPartnerSet with @(
     },]
 );
 
+@cds.odata.valuelist
+annotate service.EmployeeSet with @(
+    UI.Identification:[{
+        $Type : 'UI.DataField',
+        Value : loginName,
+    },]
+);
 
 @cds.odata.valuelist
 annotate service.ProductSet with @(
