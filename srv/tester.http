@@ -24,7 +24,7 @@ http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=bankName eq 'M
 
 ###Filter with pattern search
 http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=contains(nameFirst,'Su')
-
+##Let us check what happens
 
 ###Get the count of employees
 http://localhost:4004/odata/v4/CatalogService/EmployeeSet/$count
